@@ -1,0 +1,28 @@
+.movie-info {
+  .movie-card-container {
+    width: 20vw;
+    .poster-props {
+      height: 25vh;
+      max-height: 25vh;
+    }
+  }
+  .title-rating {
+    display: flex;
+    .title {
+      flex: 1;
+      text-align: left;
+      overflow: hidden !important;
+      white-space: nowrap !important;
+      text-overflow: ellipsis !important;
+    }
+    .rating {
+      flex: 0;
+      text-align: right;
+    }
+  }
+  .ant-card-meta-description {
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+  }
+}
